@@ -1,6 +1,6 @@
 * {
-    /* margin: 0;
-    padding: 0; */
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
@@ -8,8 +8,15 @@
 body {
     width: 100%;
     min-height: 100vb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: rgb(243, 210, 215);
+}
+
+.container {
+    display: flex;
 }
 
 .btn a {
@@ -17,11 +24,33 @@ body {
     color: #111;
     background: white;
     padding: 10px 25px;
-    border-radius: 8px;
+    border-radius: 24px;
 }
 
-img {
-    margin: 10px;
-    width: 20%;
+.size {
+    font-size: 23px;
+}
 
+.sizeb {
+    font-size: 45px;
+}
+
+
+img {
+    margin: 20px;
+    width: 20%;
+    border-radius: 25px;
+}
+
+.horizontal {
+    width: 40%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: pink;
 }
